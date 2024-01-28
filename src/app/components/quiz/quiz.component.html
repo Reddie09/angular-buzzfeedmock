@@ -19,7 +19,7 @@
         <p>{{answersSelected}}</p>
     </div>
     <div *ngIf=finished class="quiz_redo">
-        <button class="btn-opt">
+        <button class="btn-opt" (click)="resetTest()">
             Recomeçar Teste
         </button>
     </div>
